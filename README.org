@@ -1,1 +1,2 @@
-* Sway with doom-one
+* doom-sway
+Sway with doom-one theme
