@@ -2,11 +2,16 @@
 #+Author:HoneyCatCoffeeGo!
 
 * Screenshots
-
+#+caption: desktop
+#+name: desktop
+[[./assets/desktop.png]]
+#+caption: doom
+#+ name: doom
+[[./assets/doom.png]]
 * Dependency
   1. WM: Sway
   2. Menu: Wofi
-  3. Terminal: Foot
+  3. Terminal: Alacritty
   4. File Manager: Thunar/nnn
   5. Wifi: NetworkManager
   6. Audio: Pulseaudio
@@ -15,7 +20,7 @@
 * Key bindings:
    | Keybinding          | Function                |
    |---------------------+-------------------------|
-   | Super+Enter         | Foot                    |
+   | Super+Enter         | Alacritty               |
    | Super+Shift+Enter   | Wofi                    |
    | Super+f             | Thunar                  |
    | Super+b             | Firefox                 |

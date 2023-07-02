@@ -1,0 +1,9 @@
+[X-GNOME-Metatheme]
+Name=One-Dark
+Type=X-GNOME-Metatheme
+Comment=There was only one
+Encoding=UTF-8
+GtkTheme=One-Dark
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24
