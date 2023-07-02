@@ -5,7 +5,7 @@
 
 * Dependency
   1. WM: Sway
-  2. Menu:  Wofi
+  2. Menu: Wofi
   3. Terminal: Foot
   4. File Manager: Thunar/nnn
   5. Wifi: NetworkManager
