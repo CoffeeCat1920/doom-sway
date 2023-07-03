@@ -45,7 +45,6 @@ exec nm-applet
 exec blueman-applet
 exec foot --server
 exec /usr/bin/emacs -daemon
-exec ~/.config/fix.sh
 #
 #colors
 # Property Name         Border  BG      Text    Indicator Border

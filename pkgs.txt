@@ -1,0 +1,8 @@
+sway
+swaybg
+grim
+slurp
+swaylock
+wofi
+waybar
+alacritty
