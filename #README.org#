@@ -1,0 +1,44 @@
+#+TITLE:doom-sway
+#+Author:HoneyCatCoffeeGo!
+
+* Screenshots
+#+caption: desktop
+#+name: desktop
+[[./assets/desktop.png]]
+#+caption: doom
+#+name: doom
+[[./assets/doom.png]]
+* Dependency
+  1. WM: Sway
+  2. Menu: Wofi
+  3. Terminal: Alacritty
+  4. File Manager: Thunar/nnn
+  5. Wifi: NetworkManager
+  6. Audio: Pulseaudio
+  7. Font: JetBrainsMono Nerd Font
+  8. Lock: Swaylock
+  9. Screenshots : Grim/Slurp
+
+* Key bindings
+   | Keybinding          | Function                |
+   |---------------------+-------------------------|
+   | Super+Enter         | Alacritty               |
+   | Super+Shift+Enter   | Wofi                    |
+   | Super+f             | Thunar                  |
+   | Super+b             | Firefox                 |
+   | Super+Shif+s        | Screenshots             |
+   | Super+Shif+l        | Lock                    |
+   | Super+Shift+c       | kill_window             |
+   | Super+Shif+r        | reload                  |
+   | Super+Shift+x       | power_menu              |
+   | Super+h,j,k,l       | move_focus              |
+   | Super+Shift+h,j,k,l | move_windows            |
+   | Super+b             | split_horizontal        |
+   | Super+v             | split_verticle          |
+   | Super+f             | full_screen             |
+   | Supwer+s,w,e        | stacking, tabbed, Split |
+   | Super+Shift+space   | floating                |
+
+* Install
+#+NOTE: Your original configs will be in .backup_configs
+** For Arch run following commands

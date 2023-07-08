@@ -19,11 +19,11 @@
   8. Lock: Swaylock
   9. Screenshots : Grim/Slurp
 
-* Key bindings:
+* Key bindings
    | Keybinding          | Function                |
    |---------------------+-------------------------|
    | Super+Enter         | Alacritty               |
-   | Super+Shift+Enter   | Wofi                    |
+   | Super+Shift+d       | Wofi                    |
    | Super+f             | Thunar                  |
    | Super+b             | Firefox                 |
    | Super+Shif+s        | Screenshots             |
@@ -38,3 +38,12 @@
    | Super+f             | full_screen             |
    | Supwer+s,w,e        | stacking, tabbed, Split |
    | Super+Shift+space   | floating                |
+
+* Install on Arch
+Follow the following instructions
+#+begin_src
+git clone   https://github.com/H0neyCatCoffeeGo/doom-sway.git
+cd doom-sway
+chmod +x install.sh
+./install.sh
+#+end_src
