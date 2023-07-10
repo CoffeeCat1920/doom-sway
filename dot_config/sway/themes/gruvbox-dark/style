@@ -1,0 +1,24 @@
+
+#  GTK
+#set $gnome-schema org.gnome.desktop.interface
+#exec_always {
+#     gsettings set $gnome-schema gtk-theme 'one-dark-main'
+#     gsettings set $gnome-schema icon-theme 'Papirus-Light'
+#     gsettings set $gnome-schema cursor-theme 'capitaine-cursors'
+#     gsettings set $gnome-schema font-name 'JetBrainsMono Nerd Font'
+#}
+
+### Output configuration
+#
+# Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
+output * bg ~/.config/sway/wallpapers/gruvbox/gruvbox_spac.jpg fill
+
+
+# Border
+default_border none
+default_floating_border pixel
+
+#colors
+# Property Name         Border  BG      Text    Indicator Border
+  client.focused        #51afef #51afef #e1e3e4 #51afef   #51afef
+  client.unfocused      #4db5bd #4db5bd #e1e3e4 #3f444a   #3f444a

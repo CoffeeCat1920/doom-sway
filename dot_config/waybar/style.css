@@ -1,8 +1,4 @@
-@define-color background #282c34;
-@define-color text  #bbc2cf;
-@define-color accent #51afef;
-@define-color highlight #2257A0;
-
+@import url("/home/ok/.config/sway/themes/gruvbox-dark/colors.css");
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: JetBrainsMono Nerd Font;

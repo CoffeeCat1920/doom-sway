@@ -11,6 +11,6 @@ rm -r ~/.config/sway ~/.config/waybar ~/.config/wofi
 echo "Coping new dots"
 cp dot_zshrc ~/.zshrc
 cp -r dot_config/* ~/.config
-cp -r private_dot_local/bin/* ~/.local/bin/
+cp -r private_dot_local/bin/ ~/.local/bin/
 
 echo "========================================================THANKS FOR USING MY DOTS============================================="

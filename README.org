@@ -1,13 +1,21 @@
 #+TITLE:doom-sway
 #+Author:HoneyCatCoffeeGo!
 
-* Screenshots
+* Themes
+** Doom-one
 #+caption: desktop
 #+name: desktop
-[[./assets/desktop.png]]
+[[./assets/doom-one/desktop.png]]
 #+caption: doom
 #+name: doom
-[[./assets/doom.png]]
+[[./assets/doom-one/doom.png]]
+** Doom-gruvbox
+#+caption: desktop
+#+name: desktop
+[[./assets/gruvbox/desktop.png]]
+#+caption: menu
+#+name: menu
+[[./assets/gruvbox/menu.png]]
 * Dependency
   1. WM: Sway
   2. Menu: Wofi
@@ -18,7 +26,6 @@
   7. Font: JetBrainsMono Nerd Font
   8. Lock: Swaylock
   9. Screenshots : Grim/Slurp
-
 * Key bindings
    | Keybinding          | Function                |
    |---------------------+-------------------------|
@@ -38,7 +45,6 @@
    | Super+f             | full_screen             |
    | Supwer+s,w,e        | stacking, tabbed, Split |
    | Super+Shift+space   | floating                |
-
 * Install on Arch
 Follow the following instructions
 #+begin_src
@@ -47,3 +53,7 @@ cd doom-sway
 chmod +x install.sh
 ./install.sh
 #+end_src
+* Todo list
+- [ ] Add theme slector
+- [ ] Add all [[https://github.com/doomemacs/themes][doom-themes]]
+- [ ] Adding more wofi menus

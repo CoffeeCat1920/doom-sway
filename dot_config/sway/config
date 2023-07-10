@@ -9,16 +9,13 @@ include ~/.config/sway/keybinds
 # on the original workspace that the command was run on.
 set $menu wofi --show drun
 
-### Output configuration
-#
-# Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/.config/sway/wallpapers/od_gargantua.png fill
 # Gaps
 gaps inner 0
 
 # Auto
 #exec nm-applet
 #exec blueman-applet
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec foot --server
 exec /usr/bin/emacs -daemon
 
