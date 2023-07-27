@@ -9,6 +9,7 @@ include ~/.config/sway/keybinds
 # on the original workspace that the command was run on.
 set $menu wofi --show drun
 
+
 # Gaps
 gaps inner 0
 

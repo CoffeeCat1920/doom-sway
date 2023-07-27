@@ -1,7 +1,7 @@
-@import url("/home/ok/.config/sway/themes/gruvbox-dark/colors.css");
+@import url("/home/ok/.config/sway/themes/ghibli/colors.css");
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: JetBrainsMono Nerd Font;
+    font-family:JetbrainsMono Nerd Font;
     font-size: 12px;
 }
 
@@ -111,8 +111,8 @@ button:hover {
 
 #clock {
     color: @background;
-    font-family: Ubuntu;
-    font-weight: bold;
+    font-family:pixeled;
+    font-size:8px;
     box-shadow: inset 0 -3px @highlight;
     background-color: @accent;
 }

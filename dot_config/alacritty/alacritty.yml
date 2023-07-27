@@ -18,4 +18,4 @@ font:
   size: 12
 
 import:
- - ~/.config/alacritty/themes/themes/gruvbox_dark.yaml
+ - ~/.config/alacritty/themes/themes/everforest_dark.yaml

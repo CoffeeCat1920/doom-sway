@@ -11,7 +11,7 @@
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/.config/sway/wallpapers/gruvbox/gruvbox_spac.jpg fill
+output * bg ~/.config/sway/wallpapers/ghibli/forest.jpg fill
 
 
 # Border
@@ -20,5 +20,5 @@ default_floating_border pixel
 
 #colors
 # Property Name         Border  BG      Text    Indicator Border
-  client.focused        #51afef #51afef #e1e3e4 #b8bb26   #b8bb26
-  client.unfocused      #4db5bd #4db5bd #e1e3e4 #b8bb26   #b8bb26
+  client.focused        #51afef #51afef #e1e3e4 #b8bb26   #83c092
+  client.unfocused      #4db5bd #4db5bd #e1e3e4 #b8bb26   #9da9a0
