@@ -16,6 +16,13 @@
 #+caption: menu
 #+name: menu
 [[./assets/gruvbox/menu.png]]
+** Ghibli (Doom-everforest)
+#+caption: desktop
+#+name: desktop
+[[./assets/doom-everforest/desktop.png]]
+#+caption: menu
+#+name: menu
+[[./assets/doom-everforest/menu.png]]
 * Dependency
   1. WM: Sway
   2. Menu: Wofi
