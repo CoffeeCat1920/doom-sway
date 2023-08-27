@@ -1,4 +1,4 @@
-@import url("/home/ok/.config/sway/themes/ghibli/colors.css");
+@import url("../sway/themes/ghibli/colors.css");
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family:JetbrainsMono Nerd Font;
